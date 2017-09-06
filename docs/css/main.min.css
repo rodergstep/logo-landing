@@ -648,19 +648,11 @@ a {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 90px; }
-  .tariffs:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/tariff-bg.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: 100% 100%;
-            background-size: 100%;
-    z-index: -1; }
+  padding-bottom: 90px;
+  background-image: url("../img/tariff-bg.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
   .tariffs .container {
     padding-top: 40px;
     display: -webkit-box;
