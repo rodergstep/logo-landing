@@ -651,8 +651,8 @@ a {
   padding-bottom: 90px;
   background-image: url("../img/tariff-bg.png");
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover; }
+  -webkit-background-size: 100% 88%;
+          background-size: 100% 88%; }
   .tariffs .container {
     padding-top: 40px;
     display: -webkit-box;
