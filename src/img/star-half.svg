@@ -1,0 +1,23 @@
+<svg width="38" height="35" viewBox="0 0 38 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>star-half</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-819 -12)">
+<g id="star-half">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(816.65 9.48132)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(816.65 9.48132)" fill="#98ACC4"/>
+</g>
+<g id="Rectangle 5" mask="url(#mask0_outline)">
+<use xlink:href="#path1_fill" transform="translate(812 -2.00272e-05)" fill="#0087F5"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 21.5 32.25L 12.4496 37.0081C 10.9823 37.7795 9.26744 36.5336 9.54766 34.8997L 11.2761 24.8219L 3.95418 17.6848C 2.76715 16.5277 3.42217 14.5118 5.06261 14.2734L 15.1813 12.8031L 19.7065 3.63397C 20.4402 2.14748 22.5598 2.14748 23.2935 3.63397L 27.8187 12.8031L 37.9374 14.2734C 39.5778 14.5118 40.2328 16.5277 39.0458 17.6848L 31.7239 24.8219L 33.4523 34.8997C 33.7326 36.5336 32.0177 37.7795 30.5504 37.0081L 21.5 32.25Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 27 0L 27 58L 0 58L 0 0Z"/>
+</defs>
+</svg>

@@ -1,0 +1,6 @@
+node_modules/*
+addons/*
+.vscode/*
+gutil.log
+package-lock.json
+
