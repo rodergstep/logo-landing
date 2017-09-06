@@ -688,7 +688,7 @@ a {
                 align-items: center; } }
   .tariffs .tariff {
     min-width: 327px;
-    padding: 39px 63px 63px 63px;
+    padding: 39px 63px 83px 63px;
     text-align: center;
     background: #fff;
     border: 1px solid #fff;
@@ -752,7 +752,7 @@ a {
             border-radius: 3px; }
 
 .order {
-  margin-top: 33px;
+  margin-top: 13px;
   margin-bottom: 114px; }
   .order .container {
     text-align: center; }
