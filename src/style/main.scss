@@ -205,9 +205,6 @@ a {
       margin-right: 9px;
       margin-left: 9px;
     }
-    // &:nth-child(2) {
-    //   margin-right: 27px;
-    // }
   }
   &__star {
     display: inline-block;
@@ -437,10 +434,7 @@ a {
   position: relative;
   width: 100%;
   overflow: hidden;
-  //   background-image: url('../img/tariff-bg.svg');
-  //   background-repeat: no-repeat;
-  //   background-size: 100% 100%;
-  padding-bottom: 123px;
+  padding-bottom: 90px;
   &:before {
     content: "";
     position: absolute;
@@ -524,6 +518,7 @@ a {
 
 // Order
 .order {
+  margin-top: 33px;
   margin-bottom: 114px;
   .container {
     text-align: center;

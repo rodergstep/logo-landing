@@ -607,7 +607,7 @@ a {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 123px; }
+  padding-bottom: 90px; }
   .tariffs:before {
     content: "";
     position: absolute;
@@ -696,6 +696,7 @@ a {
             border-radius: 3px; }
 
 .order {
+  margin-top: 33px;
   margin-bottom: 114px; }
   .order .container {
     text-align: center; }
