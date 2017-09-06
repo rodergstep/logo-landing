@@ -114,7 +114,11 @@ a {
 }
 
 .cookies {
-  margin-top: 286px;
+  margin-top: 216px;
+  padding-top: 70px;
+  padding-bottom: 122px;
+  background-image: url("../img/bg-cookies.png");
+  background-size: cover;
   .container {
     max-width: 1440px;
   }
@@ -195,7 +199,6 @@ a {
 
 // Rating
 .rating {
-  margin-top: 122px;
   margin-bottom: 104px;
   text-align: center;
   &__stars-box {
@@ -536,12 +539,16 @@ a {
   color: $footer-text;
   .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 52px;
     padding-bottom: 58px;
   }
   .footer__left {
     margin-left: -2px;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
   }
   .footer__logo-link {
     margin-top: 5px;
@@ -556,8 +563,12 @@ a {
     letter-spacing: 0.2px;
     color: $grey-text;
   }
+  .footer__copy {
+    margin-bottom: 30px;
+  }
   .footer__right {
     display: flex;
+    flex-wrap: wrap;
   }
   .footer__column-one {
     margin-right: 177px;
