@@ -223,11 +223,13 @@ a {
       position: absolute;
       top: 10px;
       left: 10px;
-      display: inline-block;
-      width: 100%;
-      height: 100%;
-      background-color: #F2F9FF;
-      border-radius: 3px;
+      display: block;
+      width: 100.5%;
+      height: 105%;
+      //   background-color: #F2F9FF;
+      background-image: url("../img/feedback-bg.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
       z-index: -1;
     }
   }
@@ -334,13 +336,14 @@ a {
   }
   .maker__download {
     padding: 15px 5px 10px 5px;
+    font-size: 11px;
     color: $white;
     background-color: $blue;
     border: none;
     .maker__icon-arrow-down {
       position: absolute;
-      bottom: -35px;
-      right: -35px;
+      bottom: -45px;
+      right: -45px;
     }
   }
   &__action {
