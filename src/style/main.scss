@@ -1,5 +1,4 @@
 @import "reset";
-@import "fonts";
 @import "vars";
 :root {
   * {
@@ -95,8 +94,8 @@ a {
     padding-right: 167px;
     font-size: 19px;
     color: $light-grey;
-    background: #FFFFFF;
-    border: 1px solid $light-grey;
+    background-color: $white;
+    border: 1px solid $light-grey2;
     box-sizing: border-box;
     border-radius: 5px;
     @media only screen and (max-width: 768px) {
@@ -127,9 +126,10 @@ a {
   padding-top: 70px;
   padding-bottom: 122px;
   background-image: url("../img/bg-cookies.png");
-  background-size: cover;
+  background-size: 88% 100%;
+  background-repeat: no-repeat;
   .container {
-    max-width: 1440px;
+    max-width: 1513px;
   }
   &__inner-wrap {
     display: flex;
@@ -163,6 +163,8 @@ a {
     }
   }
   .cookies__picture {
+    display: inline-block;
+    margin-left: -12px;
     width: 72px;
     height: 72px;
   }
@@ -171,11 +173,9 @@ a {
     width: 432px;
     height: 432px;
     margin-left: 20px;
-    // padding: 172px 91px 21px 91px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: $red;
     color: $white;
     box-shadow: 0px 7px 42px rgba(179, 179, 179, 0.5);
@@ -201,7 +201,7 @@ a {
   }
   // quantity
   &__quantity-box {
-    margin-left: 8%;
+    margin-left: 10.6%;
     text-align: center;
   }
   &__quantity {
@@ -627,5 +627,3 @@ a {
     }
   }
 }
-
-@import "media";
